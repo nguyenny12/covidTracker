@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .active{
+        color: #000;
+        font-weight: 500
+    }
+    .tw-height{
+        height: 400px
+    }
+}

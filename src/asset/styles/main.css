@@ -1,0 +1,11 @@
+.tw-height{
+    height: 400px !important;
+}
+.style-active{
+    transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transition: transform .5s cubic-bezier(0.215, 0.610, 0.355, 1) ;
+}
+.style-active.active{
+    transform: translateX(0);
+}
